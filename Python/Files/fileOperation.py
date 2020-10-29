@@ -1,0 +1,10 @@
+# openFile = open("/root/Desktop/Python/Files/text.txt","w")
+# openFile.write("Im crazy")
+# print("Written")
+# openFile.close()
+readfile=open("/root/Desktop/Python/Files/text.txt","r")
+i = int(input("Enter the line"))
+for x in range(0,i):
+    a=readfile.readline()
+readfile.close()
+print(a)
