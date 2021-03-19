@@ -1,0 +1,75 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hello",
+            "request": "launch",
+            "mainClass": "Java.hello",
+            "projectName": "Programing_ad13982f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - program_p4_4SN17CS005_20201124_10_45_20",
+            "request": "launch",
+            "mainClass": "Java.program_p4_4SN17CS005_20201124_10_45_20",
+            "projectName": "Programing_ad13982f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fileOperation",
+            "request": "launch",
+            "mainClass": "Java.fileOperation",
+            "projectName": "Programing_ad13982f"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "header.c ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "sldb",
+            "request": "attach",
+            "name": "(sdlb) Attach",
+            "pid": 7886
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - countTheWords",
+            "request": "launch",
+            "mainClass": "Java.countTheWords",
+            "projectName": "Programing_ad13982f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - convert",
+            "request": "launch",
+            "mainClass": "Java.convert",
+            "projectName": "Programing_ad13982f"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
